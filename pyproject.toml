@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recursive_moments"
+version = "0.0.1"
+description = "Recursive moment updates for regression"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "jax",
+    "jaxlib",
+    "scikit-learn",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["recursive_moments*", "simulation", "weather", "baseline"]

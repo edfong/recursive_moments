@@ -1,0 +1,12 @@
+# Runtime and plotting dependencies; use a separate environment for GPAR.
+numpy
+scipy
+jax
+jaxlib
+scikit-learn
+pandas
+matplotlib
+seaborn
+ipykernel
+geopandas
+shapely>=2
