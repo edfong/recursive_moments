@@ -1,9 +1,6 @@
 # Recursive Moment Updates for Bayesian Regression
 
-This folder contains the code for the experiments for the paper "Recursive moment updates for scalable Bayesian nonparametric regression". Simulation data
-and precomputed results are not distributed; please generate them using the scripts
-below. The processed annual weather dataset and split are included.
-Methodological and implementation details can be found in the supplementary material.
+This folder contains the code for the experiments for the paper "Recursive moment updates for scalable Bayesian nonparametric regression", which can be found [here](https://arxiv.org/abs/2610.33388). Methodological and implementation details can be found in the supplementary material.
 
 ## Contents
 
@@ -17,6 +14,9 @@ Methodological and implementation details can be found in the supplementary mate
 - `results/`: generated simulation outputs and LaTeX tables in `simulation/`,
   and weather summaries, scores, timings and LaTeX table in `weather/`.
 - `plots/`: simulation figures in `simulation/` and weather maps in `weather/`.
+
+Simulation data and precomputed results are not distributed; please generate them using the scripts
+below. The processed annual weather dataset and split are included.
 
 ## Installation
 
